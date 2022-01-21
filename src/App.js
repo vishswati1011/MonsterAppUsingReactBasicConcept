@@ -32,6 +32,7 @@ class App extends React.Component {
         {/* <input type='search'
           onChange={e => this.setState({ searchFeild: e.target.value })}
           placeholder='search monster' /> */}
+          <h1>MONSTER ROLODEX</h1>
         <SearchBox
           placeholder="search monster"
           handleChange={this.handleChange}
